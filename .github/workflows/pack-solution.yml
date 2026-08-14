@@ -1,0 +1,21 @@
+name: Pack ContactCenterProjectWave1_core
+on:
+  push:
+    paths:
+      - contents/**
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: microsoft/powerplatform-actions/actions-install@v1     
+      - uses: microsoft/powerplatform-actions/pack-solution@v1
+        with:
+          solution-file: out/CCaaSProjectWave1_core.zip
+          solution-folder: contents
+          solution-type: Both
+      - uses: actions/upload-artifact@v4
+        with:
+          name: packed-solution
+          path: out/
