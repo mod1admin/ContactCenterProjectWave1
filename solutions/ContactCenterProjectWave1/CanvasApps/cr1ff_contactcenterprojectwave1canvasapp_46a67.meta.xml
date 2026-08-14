@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>cr1ff_contactcenterprojectwave1canvasapp_46a67</Name>
+  <AppVersion>2026-08-14T06:45:33Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.26074.11.0</CreatedByClientVersion>
+  <MinClientVersion>3.26074.11.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.26074.11","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","m365CopilotSettingValue":"0"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>ContactCenterProjectWave1CanvasApp</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"32eb7cb0-5abe-4932-87d1-624ef5635a22":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://static.powerapps.com/resource/ppcr/releases/v1.0.1813/1.0.1813.4769/sharepointonline/icon.png","dataSources":["Documents","Product List"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://m365x86797758.sharepoint.com/sites/SalesAndMarketing_new_shared_sharepointonline_b01466d96d9446d091628eebd7a2c3ae":{"datasetOverride":{"name":"https://m365x86797758.sharepoint.com/sites/SalesAndMarketing","environmentVariableName":"new_shared_sharepointonline_b01466d96d9446d091628eebd7a2c3ae"},"dataSources":{"Documents":{"tableName":"6be6e5a6-6a12-41e9-b341-588d7f9a71a6","tableNameOverride":{"environmentVariableName":"new_shared_sharepointonline_25bf3d7b094845a4b0e6c8de68958555"}},"Product List":{"tableName":"415530b0-8e59-4aaf-a93c-5d2447761877","tableNameOverride":{"environmentVariableName":"cr1ff_shared_sharepointonline_061b959e37b24f458e842f986b6afc8d"}}}}},"apiTier":"Standard"}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"new_shared_sharepointonline_b01466d96d9446d091628eebd7a2c3ae","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"new_shared_sharepointonline_25bf3d7b094845a4b0e6c8de68958555","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"cr1ff_shared_sharepointonline_061b959e37b24f458e842f986b6afc8d","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/cr1ff_contactcenterprojectwave1canvasapp_46a67_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/cr1ff_contactcenterprojectwave1canvasapp_46a67_DocumentUri.msapp</DocumentUri>
+  <AdditionalUris>
+    <AdditionalUri>/CanvasApps/cr1ff_contactcenterprojectwave1canvasapp_46a67_AdditionalUris0_identity.json</AdditionalUri>
+  </AdditionalUris>
+</CanvasApp>
