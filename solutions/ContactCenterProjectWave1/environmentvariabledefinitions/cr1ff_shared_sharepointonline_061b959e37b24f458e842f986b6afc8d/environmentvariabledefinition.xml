@@ -1,0 +1,15 @@
+<environmentvariabledefinition schemaname="cr1ff_shared_sharepointonline_061b959e37b24f458e842f986b6afc8d">
+  <apiid>/providers/microsoft.powerapps/apis/shared_sharepointonline</apiid>
+  <displayname default="Product List">
+    <label description="Product List" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.1</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <parameterkey>table</parameterkey>
+  <parentdefinitionid>
+    <schemaname>new_shared_sharepointonline_b01466d96d9446d091628eebd7a2c3ae</schemaname>
+  </parentdefinitionid>
+  <secretstore>0</secretstore>
+  <type>100000004</type>
+</environmentvariabledefinition>
