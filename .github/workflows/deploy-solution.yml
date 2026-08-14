@@ -1,0 +1,26 @@
+name: Deploy ContactCenterProjectWave1_core
+
+on:
+  workflow_run:
+    workflows: ["Pack ContactCenterProjectWave1_core"]
+    branches: [main]
+    types:
+      - completed
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: windows-latest
+    environment: production
+    steps:
+      - uses: dawidd6/action-download-artifact@v2
+        with:
+          workflow: pack-solution.yml
+          name: packed-solution
+      - uses: microsoft/powerplatform-actions/import-solution@v0
+        with:
+          environment-url: https://orgb4e79742.crm.dynamics.com
+          app-id: ${{ secrets.APP_ID }}
+          client-secret: ${{ secrets.CLIENT_SECRET }}
+          tenant-id: ${{ secrets.TENANT_ID }}
+          solution-file: out/ContactCenterProjectWave1_core_unmanaged.zip
