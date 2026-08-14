@@ -13,7 +13,7 @@ jobs:
       - uses: microsoft/powerplatform-actions/pack-solution@v1
         with:
           solution-file: out/CCaaSProjectWave1_core.zip
-          solution-folder: .
+          solution-folder: solutions/ContactCenterProjectWave1_core
           solution-type: Both
       - uses: actions/upload-artifact@v4
         with:
